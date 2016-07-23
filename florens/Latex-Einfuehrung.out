@@ -1,0 +1,53 @@
+\BOOKMARK [1][-]{section.1}{Einleitung}{}% 1
+\BOOKMARK [1][-]{section.2}{Funktionsweise der Elektronenr\366hre}{}% 2
+\BOOKMARK [1][-]{section.3}{Geschichtliche Einteilung}{}% 3
+\BOOKMARK [1][-]{section.4}{Der ENIAC}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Einleitung}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Technische Daten und Funktionsweise}{section.4}% 6
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Grundlegendes}{subsection.4.2}% 7
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Die Einheiten des ENIAC}{subsection.4.2}% 8
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Die initiating unit}{subsection.4.2}% 9
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Die cycling unit}{subsection.4.2}% 10
+\BOOKMARK [3][-]{subsubsection.4.2.5}{Der Akkumulator}{subsection.4.2}% 11
+\BOOKMARK [3][-]{subsubsection.4.2.6}{Der Multiplikator}{subsection.4.2}% 12
+\BOOKMARK [3][-]{subsubsection.4.2.7}{Der Dividierer}{subsection.4.2}% 13
+\BOOKMARK [3][-]{subsubsection.4.2.8}{Die master programmer unit}{subsection.4.2}% 14
+\BOOKMARK [2][-]{subsection.4.3}{Programmierung des ENIAC}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.4}{Bezug und Relevanz zu heutigen Rechnern}{section.4}% 16
+\BOOKMARK [1][-]{section.5}{Der EDVAC}{}% 17
+\BOOKMARK [2][-]{subsection.5.1}{Einleitung}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.2}{Technische Daten und Funktionsweise}{section.5}% 19
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Grundlegendes}{subsection.5.2}% 20
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Die central control unit}{subsection.5.2}% 21
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Die central arithmetical unit}{subsection.5.2}% 22
+\BOOKMARK [3][-]{subsubsection.5.2.4}{Die Speichereinheit}{subsection.5.2}% 23
+\BOOKMARK [3][-]{subsubsection.5.2.5}{Der dispatcher}{subsection.5.2}% 24
+\BOOKMARK [3][-]{subsubsection.5.2.6}{Der timer}{subsection.5.2}% 25
+\BOOKMARK [3][-]{subsubsection.5.2.7}{Datenein- und Ausgabe}{subsection.5.2}% 26
+\BOOKMARK [3][-]{subsubsection.5.2.8}{Erweiterungen}{subsection.5.2}% 27
+\BOOKMARK [2][-]{subsection.5.3}{Programmierung des EDVAC}{section.5}% 28
+\BOOKMARK [2][-]{subsection.5.4}{Bezug und Relevanz zu heutigen Rechnern}{section.5}% 29
+\BOOKMARK [1][-]{section.6}{Die IAS-Maschine}{}% 30
+\BOOKMARK [2][-]{subsection.6.1}{Geschichte}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.2}{Technische Beschreibung}{section.6}% 32
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Zahlenrepresentation}{subsection.6.2}% 33
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Speicherwerk}{subsection.6.2}% 34
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Rechenwerk}{subsection.6.2}% 35
+\BOOKMARK [3][-]{subsubsection.6.2.4}{Steuerwerk}{subsection.6.2}% 36
+\BOOKMARK [2][-]{subsection.6.3}{Programmierung und Besonderheiten}{section.6}% 37
+\BOOKMARK [1][-]{section.7}{Der EDSAC}{}% 38
+\BOOKMARK [2][-]{subsection.7.1}{Geschichte}{section.7}% 39
+\BOOKMARK [2][-]{subsection.7.2}{Technische Beschreibung}{section.7}% 40
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Zahlenrepr\344sentation}{subsection.7.2}% 41
+\BOOKMARK [2][-]{subsection.7.3}{Ein-/Ausgabe}{section.7}% 42
+\BOOKMARK [3][-]{subsubsection.7.3.1}{Eingabewerk}{subsection.7.3}% 43
+\BOOKMARK [3][-]{subsubsection.7.3.2}{Ausgabewerk}{subsection.7.3}% 44
+\BOOKMARK [2][-]{subsection.7.4}{Instruktionssatz}{section.7}% 45
+\BOOKMARK [2][-]{subsection.7.5}{Speicher}{section.7}% 46
+\BOOKMARK [2][-]{subsection.7.6}{Order Sequence}{section.7}% 47
+\BOOKMARK [3][-]{subsubsection.7.6.1}{Laden}{subsection.7.6}% 48
+\BOOKMARK [3][-]{subsubsection.7.6.2}{Ausf\374hren}{subsection.7.6}% 49
+\BOOKMARK [2][-]{subsection.7.7}{Datenbus}{section.7}% 50
+\BOOKMARK [2][-]{subsection.7.8}{Programmierung und Besonderheiten}{section.7}% 51
+\BOOKMARK [3][-]{subsubsection.7.8.1}{Initial Orders}{subsection.7.8}% 52
+\BOOKMARK [1][-]{section.8}{Schluss}{}% 53

@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+
+\bibitem{Goldstine}
+H.H. Goldstine and Adele Goldstine.
+\newblock {Electronic} {Numerical} {Integrator} and {Computer} {(ENIAC)}.
+\newblock {\em IEEE Annals of the History of Computing}, 18(1):10--16, 1996.
+
+\bibitem{ENIAC_kempf}
+Karl Kempf.
+\newblock Electronic computers within the ordnance corps.
+\newblock \url{http://ftp.arl.mil/mike/comphist/61ordnance/chap2.html}.
+
+\bibitem{EDVAC_kempf}
+Karl Kempf.
+\newblock Electronic computers within the ordnance corps.
+\newblock \url{http://ftp.arl.mil/mike/comphist/61ordnance/chap3.html}.
+
+\bibitem{ENIAC_Survey}
+Martin~H. Weik.
+\newblock {A} {Survey} of {Domestic} {Electronic} {Digital} {Computing}
+  {Systems}.
+\newblock {\em Ballistic Research Laboratories Report}, 971:41--42, 1955.
+
+\bibitem{EDVAC_Survey}
+Martin~H. Weik.
+\newblock {A} {Survey} of {Domestic} {Electronic} {Digital} {Computing}
+  {Systems}.
+\newblock {\em Ballistic Research Laboratories Report}, 971:27--28, 1955.
+
+\bibitem{EDVAC_origins}
+M.~R. Williams.
+\newblock {The Origins, Uses, and Fate of the EDVAC}.
+\newblock {\em IEEE Annals of the History of Computing}, 15(1):22--38, 1993.
+
+\end{thebibliography}

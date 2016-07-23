@@ -1,0 +1,53 @@
+\contentsline {section}{\numberline {1}Einleitung}{3}{section.1}
+\contentsline {section}{\numberline {2}Funktionsweise der Elektronenr\"ohre}{3}{section.2}
+\contentsline {section}{\numberline {3}Geschichtliche Einteilung}{3}{section.3}
+\contentsline {section}{\numberline {4}Der ENIAC}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Einleitung}{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Technische Daten und Funktionsweise}{4}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Grundlegendes}{4}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Die Einheiten des ENIAC}{4}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Die \emph {initiating unit}}{4}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}Die \emph {cycling unit}}{5}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.5}Der Akkumulator}{5}{subsubsection.4.2.5}
+\contentsline {subsubsection}{\numberline {4.2.6}Der Multiplikator}{6}{subsubsection.4.2.6}
+\contentsline {subsubsection}{\numberline {4.2.7}Der Dividierer}{7}{subsubsection.4.2.7}
+\contentsline {subsubsection}{\numberline {4.2.8}Die \emph {master programmer unit}}{7}{subsubsection.4.2.8}
+\contentsline {subsection}{\numberline {4.3}Programmierung des ENIAC}{8}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Bezug und Relevanz zu heutigen Rechnern}{9}{subsection.4.4}
+\contentsline {section}{\numberline {5}Der EDVAC}{9}{section.5}
+\contentsline {subsection}{\numberline {5.1}Einleitung}{9}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Technische Daten und Funktionsweise}{10}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Grundlegendes}{10}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Die \emph {central control unit}}{10}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}Die \emph {central arithmetical unit}}{10}{subsubsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.4}Die Speichereinheit}{10}{subsubsection.5.2.4}
+\contentsline {subsubsection}{\numberline {5.2.5}Der \emph {dispatcher}}{11}{subsubsection.5.2.5}
+\contentsline {subsubsection}{\numberline {5.2.6}Der \emph {timer}}{11}{subsubsection.5.2.6}
+\contentsline {subsubsection}{\numberline {5.2.7}Datenein- und Ausgabe}{11}{subsubsection.5.2.7}
+\contentsline {subsubsection}{\numberline {5.2.8}Erweiterungen}{12}{subsubsection.5.2.8}
+\contentsline {subsection}{\numberline {5.3}Programmierung des EDVAC}{12}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Bezug und Relevanz zu heutigen Rechnern}{13}{subsection.5.4}
+\contentsline {section}{\numberline {6}Die IAS-Maschine}{13}{section.6}
+\contentsline {subsection}{\numberline {6.1}Geschichte}{13}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Technische Beschreibung}{14}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Zahlenrepresentation}{14}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Speicherwerk}{14}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}Rechenwerk}{14}{subsubsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.4}Steuerwerk}{15}{subsubsection.6.2.4}
+\contentsline {subsection}{\numberline {6.3}Programmierung und Besonderheiten}{15}{subsection.6.3}
+\contentsline {section}{\numberline {7}Der EDSAC}{15}{section.7}
+\contentsline {subsection}{\numberline {7.1}Geschichte}{15}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Technische Beschreibung}{15}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Zahlenrepr\"asentation}{15}{subsubsection.7.2.1}
+\contentsline {subsection}{\numberline {7.3}Ein-/Ausgabe}{15}{subsection.7.3}
+\contentsline {subsubsection}{\numberline {7.3.1}Eingabewerk}{16}{subsubsection.7.3.1}
+\contentsline {subsubsection}{\numberline {7.3.2}Ausgabewerk}{16}{subsubsection.7.3.2}
+\contentsline {subsection}{\numberline {7.4}Instruktionssatz}{16}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}Speicher}{16}{subsection.7.5}
+\contentsline {subsection}{\numberline {7.6}Order Sequence}{16}{subsection.7.6}
+\contentsline {subsubsection}{\numberline {7.6.1}Laden}{16}{subsubsection.7.6.1}
+\contentsline {subsubsection}{\numberline {7.6.2}Ausf\"uhren}{16}{subsubsection.7.6.2}
+\contentsline {subsection}{\numberline {7.7}Datenbus}{17}{subsection.7.7}
+\contentsline {subsection}{\numberline {7.8}Programmierung und Besonderheiten}{17}{subsection.7.8}
+\contentsline {subsubsection}{\numberline {7.8.1}Initial Orders}{17}{subsubsection.7.8.1}
+\contentsline {section}{\numberline {8}Schluss}{18}{section.8}
