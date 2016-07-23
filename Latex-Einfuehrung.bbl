@@ -1,0 +1,38 @@
+\begin{thebibliography}{1}
+
+\bibitem{neumann2void}
+A.W. Burks, H.H. Goldstine, and J.~von Neumann.
+\newblock Preliminary discussion of the logical design of an electronic
+  computing instrument.
+\newblock In A.H. Taub, editor, {\em {John von Neumann Collected Works}},
+  volume~V, pages 34--79. The Macmillan Co., New York, 1963.
+
+\bibitem{neumann1void}
+H.H. Goldstine and J.~von Neumann.
+\newblock On the principles of large scale computing machines.
+\newblock In A.H. Taub, editor, {\em {John von Neumann Collected Works}},
+  volume~V, pages 1--32. The Macmillan Co., New York, 1963.
+
+\bibitem{neumann4}
+H.~Norton Riley.
+\newblock {The von Neumann Architecture of Computer Systems}, 1987.
+\newblock \url{http://www.csupomona.edu/~hnriley/www/VonN.html}.
+
+\bibitem{neumann3}
+N.~Stern.
+\newblock {J. von Neumann: First draft of a report on the EDVAC.}
+\newblock In {\em {From ENIAC to Univac: An Appraisal of the Eckert-Mauchly
+  Computers}}. Digital Press, Bedford Massachusetts, 1981.
+
+\bibitem{neumann}
+A.H. Taub, editor.
+\newblock {\em {John von Neumann Collected Works}}, volume~V.
+\newblock The Macmillan Co., New York, 1963.
+
+\bibitem{theedsac}
+M.~V. Wilkes and W.~Renwick.
+\newblock {\em The EDSAC. Report of a Conference on High Speed Automatic
+  Calculating Machines}.
+\newblock Cambridge: University Mathematical Laboratory, 1 1950.
+
+\end{thebibliography}
