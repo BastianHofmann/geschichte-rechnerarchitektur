@@ -39,15 +39,15 @@
 \contentsline {subsection}{\numberline {7.1}Geschichte}{15}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}Technische Beschreibung}{15}{subsection.7.2}
 \contentsline {subsubsection}{\numberline {7.2.1}Zahlenrepr\"asentation}{15}{subsubsection.7.2.1}
-\contentsline {subsection}{\numberline {7.3}Ein-/Ausgabe}{15}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.3}Ein-/Ausgabe}{16}{subsection.7.3}
 \contentsline {subsubsection}{\numberline {7.3.1}Eingabewerk}{16}{subsubsection.7.3.1}
 \contentsline {subsubsection}{\numberline {7.3.2}Ausgabewerk}{16}{subsubsection.7.3.2}
 \contentsline {subsection}{\numberline {7.4}Instruktionssatz}{16}{subsection.7.4}
-\contentsline {subsection}{\numberline {7.5}Speicher}{16}{subsection.7.5}
-\contentsline {subsection}{\numberline {7.6}Order Sequence}{16}{subsection.7.6}
-\contentsline {subsubsection}{\numberline {7.6.1}Laden}{16}{subsubsection.7.6.1}
-\contentsline {subsubsection}{\numberline {7.6.2}Ausf\"uhren}{16}{subsubsection.7.6.2}
+\contentsline {subsection}{\numberline {7.5}Speicher}{17}{subsection.7.5}
+\contentsline {subsection}{\numberline {7.6}Order Sequence}{17}{subsection.7.6}
+\contentsline {subsubsection}{\numberline {7.6.1}Laden}{17}{subsubsection.7.6.1}
+\contentsline {subsubsection}{\numberline {7.6.2}Ausf\"uhren}{17}{subsubsection.7.6.2}
 \contentsline {subsection}{\numberline {7.7}Datenbus}{17}{subsection.7.7}
-\contentsline {subsection}{\numberline {7.8}Programmierung und Besonderheiten}{17}{subsection.7.8}
-\contentsline {subsubsection}{\numberline {7.8.1}Initial Orders}{17}{subsubsection.7.8.1}
+\contentsline {subsection}{\numberline {7.8}Programmierung und Besonderheiten}{18}{subsection.7.8}
+\contentsline {subsubsection}{\numberline {7.8.1}Initial Orders}{18}{subsubsection.7.8.1}
 \contentsline {section}{\numberline {8}Schluss}{18}{section.8}

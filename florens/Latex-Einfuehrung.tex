@@ -76,7 +76,7 @@ Ein sehr einfacher Typ der Elektronenröhre ist die Diode. Sie besteht im Wesentl
 \section{Geschichtliche Einteilung}
 \label{Geschichtliche_Einteilung}
 
-Bevor die konkreten Röhrenrechner im Detail vorgestellt werden, soll im Folgenden deren historischer Kontext näher erläutert werden. Allgemein ist festzustellen, dass sowohl ENIAC, EDVAC, EDSAC als auch die IAS-Maschine gegen Ende des zweiten Weltkriegs beziehungsweise kurz nach dem zweiten Weltkrieg in Auftrag gegeben oder fertiggestellt wurden und jeweils etwa 10 Jahre in Betrieb waren. Im Falle des ENIAC bestand auch ein thematischer Zusammenhang zum zweiten Weltkrieg: Die Motivation seiner Entwicklung war militärisch begründet, er sollte primär zur Berechnung ballistischer Flugbahnen von Artilleriegeschützen, Granaten et cetera dienen, was zuvor per Hand berechnet wurde. Beim EDVAC, EDSAC und der IAS-Maschine, die zeitlich leicht nach dem ENIAC und auch nach dem zweiten Weltkrieg entworfen und von seinem Konzept beeinflusst worden sind, hatte man bereits den Nutzen elektronischer Rechner für allgemeinere Anwendungen erfasst. Den EDVAC kann man als Nachfolger des ENIAC ansehen, die primäre Motivation seiner Erstellung war, einen besseren ENIAC zu bauen. Er war dementsprechend wesentlich kompakter, bezüglich des logischen Aufbaus deutlich strukturierter und aus Sicht der Bedienung erheblich einfacher zu programmieren. Die IAS-Maschine wurde etwa zeitleich zum EDVAC entwickelt und maßgeblich von John von Neumann beeinflusst. Daraus resultiert, dass sie von vielen als der erste Rechner mit Von-Neumann-Architektur bezeichnet wird, da sie mit die erste Maschine ist, bei der das Programm und Daten in einem gemeinsamen Speicher gehalten wurden. Während diese ersten drei Elektronenrechner aus den USA stammen, ist der EDSAC ein Konkurrenzprodukt aus dem Vereinigten Königreich. Entwickelt wurde er von der Cambridge-Universität und wurde von John von Neumanns  ``First Draft of a Report on the EDVAC`` inspiriert.
+Bevor die konkreten Röhrenrechner im Detail vorgestellt werden, soll im Folgenden deren historischer Kontext näher erläutert werden. Allgemein ist festzustellen, dass sowohl ENIAC, EDVAC, EDSAC als auch die IAS-Maschine gegen Ende des zweiten Weltkriegs beziehungsweise kurz nach dem zweiten Weltkrieg in Auftrag gegeben oder fertiggestellt wurden und jeweils etwa 10 Jahre in Betrieb waren. Im Falle des ENIAC bestand auch ein thematischer Zusammenhang zum zweiten Weltkrieg: Die Motivation seiner Entwicklung war militärisch begründet, er sollte primär zur Berechnung ballistischer Flugbahnen von Artilleriegeschützen, Granaten et cetera dienen, was zuvor per Hand berechnet wurde. Beim EDVAC, EDSAC und der IAS-Maschine, die zeitlich leicht nach dem ENIAC und auch nach dem zweiten Weltkrieg entworfen und von seinem Konzept beeinflusst worden sind, hatte man bereits den Nutzen elektronischer Rechner für allgemeinere Anwendungen erfasst. Den EDVAC kann man als Nachfolger des ENIAC ansehen, die primäre Motivation seiner Erstellung war, einen besseren ENIAC zu bauen. Er war dementsprechend wesentlich kompakter, bezüglich des logischen Aufbaus deutlich strukturierter und aus Sicht der Bedienung erheblich einfacher zu programmieren. Die IAS-Maschine wurde etwa zeitleich zum EDVAC entwickelt und maßgeblich von John von Neumann beeinflusst. Daraus resultiert, dass sie von vielen als der erste Rechner mit Von-Neumann-Architektur bezeichnet wird, da sie mit die erste Maschine ist, bei der das Programm und Daten in einem gemeinsamen Speicher gehalten wurden. Während diese ersten drei Elektronenrechner aus den USA stammen, ist der EDSAC ein Konkurrenzprodukt aus dem Vereinigten Königreich. Entwickelt wurde er von der Cambridge-Universität und wurde von John von Neumanns  ``First Draft of a Report on the EDVAC" inspiriert.
 
 \section{Der ENIAC}
 \subsection{Einleitung}
@@ -107,7 +107,7 @@ Die \emph{initiating unit} bot grundsätzliche Funktionen für die Initialisierung
 \subsubsection{Die \emph{cycling unit}}
 \label{ENIAC_cycling_unit}
 
-Die \emph{cycling unit} war primär für die Synchronisierung des ENIAC zuständig. Dazu sendete sie jede $\frac{1}{5000}$ Sekunde einen bestimmten Puls, den CPP (\emph{central programming pulse}) an die anderen Einheiten des ENIAC. Dieser markierte den Beginn und das Ende eines Zyklus. Wenn eine Einheit einen CPP erhielt, begann sie damit, ihre programmierte Operation auszuführen und gab am Ende ihrer Ausführung (die sich über mehrere Zyklen strecken konnte) den nächsten CPP der \emph{cycling unit} weiter an die folgende Einheit, die dann wiederum mit ihrer Operation begann. Die Einheiten des ENIAC waren derart konzipiert, dass sie für ihre Operationen ein Vielfaches dieses Zyklus brauchten. Ein Akkumulator brauchte beispielsweise genau einen Zyklus, also $\frac{1}{5000}$ Sekunde, für eine Addition, weshalb der Zyklus auch geläufig Additionszyklus (\emph{addition cycle}) genannt wird. Die Multiplikationseinheit brauchte beispielsweise etwa $p+4$ (Additions-) Zyklen bei einem $p$-stelligen Multiplikator. Die Ausführungszeiten weiterer Operationen ist in Tabelle \ref{ENIAC_operationslaufzeiten} zu sehen. Weiterhin bot die \emph{cycling unit} sozusagen Debugging-Modi an: wurde der entsprechende Schalter betätigt, ging der ENIAC in den sogenannten ''one addition time``-Operationsmodus über, in dem die Maschine nur auf Kommando genau einen Zyklus, also $\frac{1}{5000}$ Sekunde beziehungsweise eine Addition, weiter rechnete und ansonsten anhielt. Der zweite Operationsmodus ''one pulse time`` arbeitete ähnlich, nur dass hierbei der ENIAC auf Kommando Impulssignal für Impulssignal weiter rechnete, womit eine sehr genau Analyse des Verhaltens des ENIAC möglich war.~\cite{Goldstine}
+Die \emph{cycling unit} war primär für die Synchronisierung des ENIAC zuständig. Dazu sendete sie jede $\frac{1}{5000}$ Sekunde einen bestimmten Puls, den CPP (\emph{central programming pulse}) an die anderen Einheiten des ENIAC. Dieser markierte den Beginn und das Ende eines Zyklus. Wenn eine Einheit einen CPP erhielt, begann sie damit, ihre programmierte Operation auszuführen und gab am Ende ihrer Ausführung (die sich über mehrere Zyklen strecken konnte) den nächsten CPP der \emph{cycling unit} weiter an die folgende Einheit, die dann wiederum mit ihrer Operation begann. Die Einheiten des ENIAC waren derart konzipiert, dass sie für ihre Operationen ein Vielfaches dieses Zyklus brauchten. Ein Akkumulator brauchte beispielsweise genau einen Zyklus, also $\frac{1}{5000}$ Sekunde, für eine Addition, weshalb der Zyklus auch geläufig Additionszyklus (\emph{addition cycle}) genannt wird. Die Multiplikationseinheit brauchte beispielsweise etwa $p+4$ (Additions-) Zyklen bei einem $p$-stelligen Multiplikator. Die Ausführungszeiten weiterer Operationen ist in Tabelle \ref{ENIAC_operationslaufzeiten} zu sehen. Weiterhin bot die \emph{cycling unit} sozusagen Debugging-Modi an: wurde der entsprechende Schalter betätigt, ging der ENIAC in den sogenannten ''one addition time``-Operationsmodus über, in dem die Maschine nur auf Kommando genau einen Zyklus, also $\frac{1}{5000}$ Sekunde beziehungsweise eine Addition, weiter rechnete und ansonsten anhielt. Der zweite Operationsmodus ''one pulse time`` arbeitete ähnlich, nur dass hierbei der ENIAC auf Kommando Impulssignal für Impulssignal weiter rechnete, womit eine sehr genau Analyse des Verhaltens des ENIAC möglich war.''~\cite{Goldstine}
 
 \begin{table}
 \caption{Operationen des ENIAC und ihre Laufzeiten~\cite{Goldstine}}
@@ -149,7 +149,7 @@ Die zweite, wesentlich größere Schwierigkeit ergab sich aus dem physischen Aufba
 
 Um Daten eingeben zu können bediente man sich des Konstantenübermittlers (\emph{constant transmitter}), welcher mit einem Lochkartenlesegerät von IBM verbunden war. Dieses las Lochkarten mit bis zu 80 Ziffern ein, welche anschließend mit Hilfe von Relais im Konstantenübermittler gespeichert wurden und durch elektrische Signale den anderen Einheiten übergeben werden konnten. Als Ausgabe dienten ebenfalls Lochkarten, die von einem Lochkartenstanzer von IBM erstellt wurden, der mit dem Konstantenübermittler verbunden war.~\cite{Goldstine}\\
 
-Ein wichtiger Teil des Programmierens ist bekanntlich die Fehleranalyse beziehungsweise das Debugging, weswegen der ENIAC dem Programmierer auch in dieser Hinsicht Hilfsmittel bot. Zum Einen gab es, wie in Kapitel \ref{ENIAC_cycling_unit} erwähnt, die Möglichkeit, in den ''one addition time``-Operationsmodus oder den ''one pulse time``-Operationsmodus zu wechseln, indem entsprechende Schalter an der \emph{cycling unit} betätigt wurden. Dadurch war es möglich, den ENIAC zu jedem Zeitpunkt anzuhalten und auf Knopfdruck einen Impuls beziehungsweise einen Zyklus weiter rechnen zu lassen, ähnlich wie Breakpoints in heutigen IDEs für höhere Programmiersprachen. Des Weiteren befand sich für jedes Flip-Flop eine von außen sichtbare Neonlampe am ENIAC, die so geschaltet waren, dass sie leuchteten, wenn das entsprechende Flip-Flop in \emph{abnormalem} Zustand war. Im Zusammenspiel mit dem schrittweisen Weiterschalten des ENIAC, konnte man so zu jedem Zeitpunkt detailliert feststellen, in welchem Zustand sich jede Komponente befand und eventuelle Fehler analysieren.~\cite{Goldstine}
+Ein wichtiger Teil des Programmierens ist bekanntlich die Fehleranalyse beziehungsweise das Debugging, weswegen der ENIAC dem Programmierer auch in dieser Hinsicht Hilfsmittel bot. Zum Einen gab es, wie in Kapitel \ref{ENIAC_cycling_unit} erwähnt, die Möglichkeit, in den ''one addition time``-Operationsmodus oder den ''one pulse time``-Operationsmodus zu wechseln, indem entsprechende Schalter an der \emph{cycling unit} betätigt wurden. Dadurch war es möglich, den ENIAC zu jedem Zeitpunkt anzuhalten und auf Knopfdruck einen Impuls beziehungsweise einen Zyklus weiter rechnen zu lassen, ähnlich wie Breakpoints in heutigen IDEs für höhere Programmiersprachen. Des Weiteren befand sich für jedes Flip-Flop eine von außen sichtbare Neonlampe am ENIAC, die so geschaltet waren, dass sie leuchteten, wenn das entsprechende Flip-Flop in \emph{abnormalem} Zustand war. Im Zusammenspiel mit dem schrittweisen Weiterschalten des ENIAC, konnte man so zu jedem Zeitpunkt detailliert feststellen, in welchem Zustand sich jede Komponente befand und eventuelle Fehler analysieren.''~\cite{Goldstine}
 
 \begin{figure*}[ht]
 \centerline{
@@ -214,7 +214,7 @@ Der \emph{dispatcher} hatte die Aufgabe, ein 44-Bit-Wort zu dekodieren, es also 
     D $a$ $b$ $g$ $d$ & dividiere (gerundet) - ähnlich zu M $a$ $b$ $g$ $d$ \\ \hline
     d $a$ $b$ $g$ $d$ & dividiere (exakt) - m $a$ $b$ $g$ $d$ \\ \hline
     C $a$ $b$ $g$ $d$ & vergleiche den Inhalt von $a$ mit Inhalt von $b$, gehe abhängig vom Ergebnis entweder zu Instruktion in $g$ oder in $d$ \\ \hline
-    W $a$ $b$ $g$ $d$ & (Wire) - lies oder schreibe Information vom oder auf den Magnetdrahtspeicher (später abgeändert zu ''write`` für Lochbandstreifen) \\ \hline
+    W $a$ $b$ $g$ $d$ & (Wire) - lies oder schreibe Information vom oder auf den Magnetdrahtspeicher (später abgeändert zu ``write'' für Lochbandstreifen) \\ \hline
     R $a$ $b$ $g$ $d$ & (Read) - Leseoperation; wurde erst mit dem Wechsel auf das Lochbandstreifensystem eingeführt \\ \hline
     E $a$ $b$ $g$ $d$ & (Extract) - shifte ein Wort nach links oder rechts und ersetze einige der Bits mit den Bits eines anderen Wortes (wurde benutzt um die Adressen einer Instruktion zu verändern) \\ \hline
     MR $a$ $b$ $g$ $d$ & (Manual Read) - nimm das Bit-Muster, das durch die Schalter der Bedienoberfläche gegeben wurde und speichere es in $a$, $b$ und $g$, gehe zu Instruktion in $d$ \\ \hline
@@ -248,7 +248,7 @@ Der Aufbau des EDVAC hat starke Ähnlichkeiten zu heutigen Konzepten, vor allem i
 \subsection{Geschichte}
 
 
-Die Maschine basiert auf John von Neumanns Arbeit ``Preliminary Discussion of the
+Die IAS Maschine, MANIAC-0 (Mathematical Analyzer, Numerical Integrator, and Computer oder Mathematical Analyzer, Numerator, Integrator, and Computer), oder einfach nur IAS basiert auf John von Neumanns Arbeit ``Preliminary Discussion of the
 Logical Design of an Electronic Computing Instrument'' und wurde, unter seiner Aufsicht, 
 am Institute for Advanced Studies (IAS) in Princeton, New Jersey entwickelt.
 Mit der Entwicklung wurde 1945 begonnen und der Computer wurde 1951 fertiggestellt.
@@ -305,11 +305,19 @@ Außerdem kann das Rechenwerk Multiplizieren und Dividieren.
 
 \subsubsection{Steuerwerk}
 
-Wie in der von Neumann-Architektur festgelegt, soll das auszuführende Programm zusammen mit den Daten im Speicher stehen. Um das Programm zu beschreiben, waren zwei Typen von Befehlen geplant. Ein Befehl des ersten Typs holt erst einen Wert aus einer bestimmten Stelle im Speicher in das Selectronegister und wendet dann eine Funktion des Rechenwerks darauf an. Ein Befehl des zweiten Typs holt einen Wert aus dem Rechenwerk in das Selectronregister und lädt im zweiten Schritt den Inhalt des Selectronregisters in eine gegebene Stelle im Speicher. Außerdem gibt es bedingte Sprungbefehle und Befehle, die die Ein- und Ausgabe steuern.
+Wie in der von Neumann-Architektur festgelegt, soll das auszuführende Programm zusammen mit den Daten im Speicher stehen. Um das Programm zu beschreiben, waren zwei Typen von Befehlen geplant. Ein Befehl des ersten Typs holt erst einen Wert aus einer bestimmten Stelle im Speicher in das Selectronregister und wendet dann eine Funktion des Rechenwerks darauf an (normalerweise wird dabei ein Wert, der sich bereits in der Recheneinheit befindet mit einbezogen). Das Ergebnis der Rechnung wird dabei vorerst in der Recheneinheit behalten und gespeichert.\\
+Ein Befehl des zweiten Typs holt einen Wert aus dem Rechenwerk in das Selectronregister und lädt im zweiten Schritt den Inhalt des Selectronregisters in eine gegebene Stelle im Speicher. Außerdem gibt es bedingte Sprungbefehle und Befehle, die die Ein- und Ausgabe steuern.\\
+Die Wortbreite ist auf 40 Bit festgelegt, aber da 8 Bit für OP-Code und 12 Bit für den Adressteil des Befehls ausreicht, haben in jedem Wort zwei Befehle Platz. Somit ist das komplette Programm aus Paaren von Befehlen, die jeweils einen von den oben beschriebenen Typen haben, aufgebaut. Eigentlich hätten sogar 6 Bit für den OP-Code genügt, aber da man für Daten eine höhere Genauigkeit benötigte, hatt man sich für dieses Format entschieden. Einige Bits des OP-Codes blieben in der entgültigen Maschine wohl unbenützt.\\
+Während der Ausführung wird zuerst der allererste Befehl ausgewertet, gefolgt von dem zweitem Befehl im aktuellen Befehlspaar. Dieser Prozess wird bis zum Ende des Programms wiederholt. 
+
+
 
 \subsection{Programmierung und Besonderheiten}
 
-Es ist vorallem zu Bemerken, dass es sich um einen parallelen Computer handelt. Dies hatte zwar einen klaren Geschwindigkeitsvorteil, machte die Maschine aber durchaus komplexer als ihre Vorgänger.
+Es ist zu Bemerken, dass es sich um einen parallelen Computer handelt. Dies hatte zwar einen klaren Geschwindigkeitsvorteil, machte die Maschine aber durchaus komplexer als ihre Vorgänger.\\
+
+Außerdem waren alle Dokumente die von gesamten MANIC-0 Team verfasst wurden von fast jedem einzusehen und wurden teilweise auch an wissenschaftliche Institutionen in der ganzen Welt verschickt. Dadurch entstannd eine lange liste an Computern die auf dem selben IAS Design bassierten. Insofern kann man sagen, dass die IAS Maschine zu dieser Zeit und auch danach einen großen Einfluss auf die Struktur und Architektur von Rechenmaschinen hatte.\\
+Der Ingineur Julian Bigelow fasste den Einfluss dieser technischen Erungenschaft mit folgenden Worten zusammen: ``Es geschah hier... und wir hatten das Glück dabei zu sein... Eine Flutwelle an Rechenleistung war kurz davor zu brechen und alles in Wissenschaft und vielen anderen Bereichen zu überschwemmen und danach würde nichts mehr so sein wie zuvor. Es würde unklare Bereiche, die sich seit Jahrhunderten angehäuft haben, reinigen und lösen.''
 
 \section{Der EDSAC}
 \subsection{Geschichte}
@@ -413,7 +421,7 @@ Insgesamt gibt es 18 Befehle mit der die ALU bedient, Werte aus dem Speicher in 
 
 Der Speicher besteht aus Akustischen Verzögerungsleitungen. Es gibt 32 sogenannte Tanks, wobei 
 jeder Tank etwa 1,5m lang ist und 32 Werte mit je 17 Bit speichern kann. Insgesamt können also
-1024 Wörter gespeichert werden. ~\cite{theedsac}
+1024 Wörter gespeichert werden.
 
 \subsection{Order Sequence}
 
@@ -421,10 +429,10 @@ Die sogenannte order sequence (Ausführung von einem Befehl) ist in zwei Schritte
 
 \subsubsection{Laden}
 Im ersten Schritt wird der Befehlt aus der entsprechenden Speicherzelle im Hauptspeicher in das Befehlsregister (Ordertank) geladen.\\
-Der Ordertank ist ein einzelner kürzerer Tank und kann genau einen Befehl speichern (18 Bit mit einem unbenüzten Bit). Die derzeitige Position im Programm ist ebenfalls in keim kurzen Tank, dem Befehlszähler (Sequence control tank), gespeichert. An dem Befehlszähler ist eine Additionsschaltung angeschlossen, die den Befehlszähler in jeder Befehlsausführung inkrementiert. Wenn ein Bedingungsbefehl $En$, oder $Gn$ geladen wird und die Bedingung wahr ist, wird der Befehlszähler nicht inkrementiert, sondern mit dem Adressfeld $n$ aus dem Befehl geladen.~\cite{theedsac}
+Der Ordertank ist ein einzelner kürzerer Tank und kann genau einen Befehl speichern (18 Bit mit einem unbenüzten Bit). Die derzeitige Position im Programm ist ebenfalls in keim kurzen Tank, dem Befehlszähler (Sequence control tank), gespeichert. An dem Befehlszähler ist eine Additionsschaltung angeschlossen, die den Befehlszähler in jeder Befehlsausführung inkrementiert. Wenn ein Bedingungsbefehl $En$, oder $Gn$ geladen wird und die Bedingung wahr ist, wird der Befehlszähler nicht inkrementiert, sondern mit dem Adressfeld $n$ aus dem Befehl geladen.
 
 \subsubsection{Ausführen}
-Im zweiten Schritt, wird der geladene Befehl im Ordertank ausgeführt.~\cite{theedsac}
+Im zweiten Schritt, wird der geladene Befehl im Ordertank ausgeführt.
 
 TODO: Anhand Datenbus Grafik, die beiden Schritte mit Beispielbefehl erklären.
 
@@ -489,13 +497,12 @@ Der erste Befehl auf jedem Lochstreifen muss immer $TnS$ lauten, wobei $n-1$ die
   \end{tabular}
 \end{table}
 
-  
-
-~\cite{theedsac}
-
 
 \section{Schluss}
-to do
+
+Nachdem wir nun vier Röhrencomputer genauer betrachtet haben, ist wohl zu diskutieren in welchem Maße diese auch Heute noch relevant sind, beziehungsweise in wie fern diese vier Computer unsere heutigen Rechenmaschinen beeinflusst haben. Ein wichtiger Gesichtspunkt der dabei zu nennen ist, ist der Aufbau dieser Maschinen. Die Von Neumann Architektur ist bei allen der beschriebenen Computer angewandt und auch Heute noch werden Prozessoren nach diesem Prinzip strukturiert. Auch wenn sich an des Details einiges geändert hat und man heutzutage sehr viel mehr Rechenleistung zur Verfügung hat, funktionieren die Computer von Damals und Heute doch sehr änhlich. Als die ersten Röhrenrechner entworfen wurden, war das ein absoluter technologischer und wissenschaftlicher Durchbruch. Auf einem Schlag konnten Probleme in einem Bruchteil der Zeit, die ein Mathematiker per Hand benötigt hätte, gelöst werden. Und mit der IAS Maschine wurden die Baupläne für diese Wunderwerke der Technik für jeden verfügbar.\\
+Zum Schluss möchte ich noch einen letzten Satz von John von Neumann zitieren, der einen doch zu Denken gibt, wie man über unsere heutigen Laptops oder auch Supercomputer in wenigen Jahrzehnten denkt. Von Neumann soll diesen Satz nach Vollendung der IAS gesagt haben.\\
+``It would appear that we have reached the limits of what is possible to achieve with computer technology, although one should be careful with such statements, as they tend to sound pretty silly in five years.'' (John von Neumann, ca.1949) ~\cite{IAS_history}
 
 % MIt diesem Kommando kann man nicht im Text zitierte Quellen zum 
 %Literaturverzeichnis
