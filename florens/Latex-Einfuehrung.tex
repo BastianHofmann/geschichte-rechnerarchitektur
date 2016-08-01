@@ -265,14 +265,12 @@ Die Architektur die in dem oben genannten Bericht erläutert wird, wird Heute all
 Von-Neumann-Architektur genannt obwohl John von Neumann nur einer der Verfasser der Abhandlung ist.
 Neben John von Neumann haben auch Arthur Burks und Herman Goldstine an der Architektur gearbeitet. 
 Es ist davon auszugehen, dass die Architektur wesentlich von John von Neumann 
-beeinflusst wurde und deshalb nach ihm benannt ist.
+beeinflusst wurde und deshalb nach ihm benannt ist.\\
 
 \subsection{Technische Beschreibung}
 
-Im folgenden möchte ich näherer auf Aufbau, Funktionsweise und Architektur des Computers eingehen. Und einen groben Überblick über
-die einzelnen Bausteine geben, aus denen die IAS Maschine besteht. Es ist bereits bekannt, dass ein Computer der eine Von-Neumann-Architektur 
-besitzt aus vier wesentlichen Bausteinen besteht: Speicherwerk, Rechenwerk, Ein-/Ausgabewerk und dem Steuerwerk. Diese vier Bausteine sind
-auch in der IAS Maschine zu finden in werden in der Abhandlung von John von Neumann beschrieben.
+Im folgenden möchte ich näherer auf Aufbau, Funktionsweise und Architektur des Computers eingehen. Und einen groben Überblick über die einzelnen Bausteine geben, aus denen die IAS Maschine besteht. Es ist bereits bekannt, dass ein Computer der eine Von-Neumann-Architektur besitzt aus vier wesentlichen Bausteinen besteht: Speicherwerk, Rechenwerk, Ein-/Ausgabewerk und dem Steuerwerk. Diese vier Bausteine sind
+auch in der IAS Maschine zu finden in werden in der Abhandlung von John von Neumann beschrieben.\\
 
 Zunächst werden aber allgemeine Eigenschaften der Maschine beschrieben.
 
@@ -289,9 +287,16 @@ zum Beispiel auch mit Intigern rechnen, indem der die 40 Bit als $2^{39}$, $2^{3
 
 \subsubsection{Speicherwerk}
 
-Natürlich wäre es optimal wenn man für den Speicher eine Reihe von Registern die aus Elektornenröhren-Flip-Flops bestehen zur Verfügung hätte. Da man dann aber dazu aber $40n$ Flip-Flops, für $n$ Speicherwörter benötigen würde und $n$ möglichst groß sein soll, hat man sich für Quecksilberröhren entschieden.\\
 Für den Speicher war eine Größe von etwa 4000 Wörtern geplant. Dafür wurden 40 solcher Röhren benötigt. Diese Eigenschaft des Speichers hatte eine weitere wichtige Eigenschaft. Da die Wortbreite des Computers 40Bit betrug, konnte man in einem Schritt ein ganzes Wort aus dem Speicher lesen, indem man einfach je ein Bit aus jeder Röhre las. Somit hatte man die Möglichkeit eine parallele Maschine zu bauen und musste nicht jedes Bit seriell, wie bei vorherigen Maschinen (zum Beispiel EDVAC), ein Bit nach dem andereren verrechnen.\\
 Zwischen Speicherwerk und Rechenwerk gibt es eine Art Puffer, das Selectronregister. Dort werden die aus dem Speicher kommen hinein geladen bevor sie in das Rechenwerk gehen. Andersherum funktioniert das laden von Werten aus dem Rechenwerk in den Speicher analog.
+
+Natürlich wäre es optimal wenn man für den Speicher eine Reihe von Registern die aus Elektornenröhren-Flip-Flops bestehen zur Verfügung hätte. Da man dann aber dazu aber $40n$ Flip-Flops, für $n$ Speicherwörter benötigen würde und $n$ möglichst groß sein soll, hat man sich für ein Speicherwerk entschieden das das Speichern von Werten mit sogenannten Selectron-Tubes vorsieht.
+
+\paragraph{Selectron-Tube}
+
+Die Selectron-Tubes wurde ebenfalls am Institute for Advances Studies in Princeton entwickelt. Ein Selectron ist eine Vacuumröhre in der Werte durch elektrostatische Ladungen auf einer insulierten Oberfläche gespeichert werden. In der Röhre befindet sich eine Glühkathode über der insulierten Oberfläche, die als Anode fungiert. Zwische Kathode und Anode befinden sich zwei Schichten von parallel angeordneten Metallstäben. Die Stäbe sind jeweils orthogonal zu den Stäben der anderen Schicht gesetzt, sodass sich von oben gesehn ein Schachbrettmuster ergibt. Durch diese Fenster werden die Flächen auf der darunter liegenden insulierten Oberfläche festgelegt, auf denen dann jeweils ein binäres Zeichen gespeichert werden kann. Auf die Stäbchen kann unabhänig voneinander eine positive oder negative Spannung angelegt werden. Somit kann man durch anlegen entsprechender Spannungen den Elektronenfluss durch alle Fenster, bis auf ein erwünschtes Fenster, stoppen. Zwischen der Auswahlstruktur und der insulierten Oberfläche befindet sich eine Gitterelektrode an der einheitliche eine Spannung angelegt werden kann. An der Rückseite der insulierten Oberfläche befindet sich eine Metallscheibe. Im folgenden werde ich nun die Lese- und Schreiboperationen genauer beschreiben.\\
+
+Es wird ein Paar der Metallstäbchen aus der Auswahlstruktur betrachtet. Elektronen können zwischen zwei nebeneinander liegenden Stäbchen hindurch fließen, wenn beide Stäbchen die gleiche positive Ladung haben. Andererseits werden die Elektronen zwischen den beiden Stäbchen abgeblockt, wenn diese eine negative Ladung haben. Das selbe gilt, wenn ein Stäbchen positiv und das daneben liegende negative geladen ist. Es wird nun klar, dass falls eine zweite Reihe von parallelen Stäbchen rechtwinklig über die andere Reihe gesetzt wird, eine Auswahlstruktur ersteht, in der Elektronen durch ein Fenster fließen können, falls alle vier anliegenden Stäbchen eine positive Ladung haben. Alle anderen Fenster bleiben geschlossen.\\
 
 \subsubsection{Rechenwerk}
 
@@ -308,11 +313,48 @@ Außerdem kann das Rechenwerk Multiplizieren und Dividieren.
 Wie in der von Neumann-Architektur festgelegt, soll das auszuführende Programm zusammen mit den Daten im Speicher stehen. Um das Programm zu beschreiben, waren zwei Typen von Befehlen geplant. Ein Befehl des ersten Typs holt erst einen Wert aus einer bestimmten Stelle im Speicher in das Selectronregister und wendet dann eine Funktion des Rechenwerks darauf an (normalerweise wird dabei ein Wert, der sich bereits in der Recheneinheit befindet mit einbezogen). Das Ergebnis der Rechnung wird dabei vorerst in der Recheneinheit behalten und gespeichert.\\
 Ein Befehl des zweiten Typs holt einen Wert aus dem Rechenwerk in das Selectronregister und lädt im zweiten Schritt den Inhalt des Selectronregisters in eine gegebene Stelle im Speicher. Außerdem gibt es bedingte Sprungbefehle und Befehle, die die Ein- und Ausgabe steuern.\\
 Die Wortbreite ist auf 40 Bit festgelegt, aber da 8 Bit für OP-Code und 12 Bit für den Adressteil des Befehls ausreicht, haben in jedem Wort zwei Befehle Platz. Somit ist das komplette Programm aus Paaren von Befehlen, die jeweils einen von den oben beschriebenen Typen haben, aufgebaut. Eigentlich hätten sogar 6 Bit für den OP-Code genügt, aber da man für Daten eine höhere Genauigkeit benötigte, hatt man sich für dieses Format entschieden. Einige Bits des OP-Codes blieben in der entgültigen Maschine wohl unbenützt.\\
-Während der Ausführung wird zuerst der allererste Befehl ausgewertet, gefolgt von dem zweitem Befehl im aktuellen Befehlspaar. Dieser Prozess wird bis zum Ende des Programms wiederholt. 
+Während der Ausführung wird zuerst der allererste Befehl ausgewertet, gefolgt von dem zweitem Befehl im aktuellen Befehlspaar. Dieser Prozess wird bis zum Ende des Programms wiederholt.
+
+\begin{table}
+\caption{Operationen der IAS Maschine}
+\label{IAS_befehle}
+    \begin{tabular}{ | m{2 cm} | m{0.5 cm} | m{4cm} | }
+    \hline
+    Operation & Abk. & Beschreibung \\ \hline
+    $S(x) \to Ac+$ & $x$ & Lösche den Akkumulator und addiere die Zahl in Speicherzelle $x$ auf den Akkumulator. \\ \hline
+    $S(x) \to Ac-$ & $x-$ & Lösche den Akkumulator und substrahiere die Zahl in Speicherzelle $x$ vom Akkumulator. \\ \hline
+    $S(x) \to AcM$ & $xM$ & Lösche den Akkumulator und addiere den absoluten Wert der Zahl in Speicherzelle $x$ auf den Akkumulator. \\ \hline
+    $S(x) \to Ac - M$ & $x - M$ & Lösche den Akkumulator und substrahiere den absoluten Wert der Zahl in Speicherzelle $x$ vom Akkumulator. \\ \hline
+    $S(x) \to Ah+$ & $xh$ & Addiere die Zahl in Speicherzelle $x$ auf den Akkumulator. \\ \hline
+    $S(x) \to Ah-$ & $xh$ & Substrahiere die Zahl in Speicherzelle $x$ vom Akkumulator. \\ \hline
+    $S(x) \to AhM$ & $xhM$ & Addiere den absoluten Wert der Zahl in Speicherzelle $x$ auf den Akkumulator. \\ \hline
+    $S(x) \to Ah - M$ & $x - hM$ & Substrahiere die Zahl in Speicherzelle $x$ vom Akkumulator. \\ \hline
+    $S(x) \to xR$ & $xR$ & Lösche das arithmetische Register und addiere die Zahl in Speicherzelle $x$ auf das Register. \\ \hline
+    $R \to A$ & $A$ & Lösche den Akkumulator und addiere die Zahl im arithmetischen Register auf den Akkumulator. \\ \hline
+    $S(x) \times R \to A$ & $xX$ & Lösche den Akkumulator und multipliziere die Zahl in Speicherzelle $x$ mit der Zahl im arithmetischen Register. Lade die linken 39 Bit der Lösung in den Akkumulator und die rechten 39 Bit in das arithmetische Register. \\ \hline
+    \end{tabular}
+\end{table}
+\begin{table}
+\caption{Operationen der IAS Maschine (weiter)}
+\label{IAS_befehle}
+    \begin{tabular}{ | m{2 cm} | m{0.5 cm} | m{4cm} | }
+    \hline
+    Operation & Abk. & Beschreibung \\ \hline
+    $A \div S(x) \times A \to R$ & $x\div$ & Lösche das arithmetische Register und teile die Zahl im Akkumulator durch die Zahl in Speicherzelle $x$. Lade den Quotient in das arithmetische Register und den Rest in den Akkumulator. \\ \hline
+    $Cu \to S(x)$ & $xC$ & Springe zu dem linken Befehl in Speicherzelle $x$. \\ \hline
+    $Cu' \to S(x)$ & $xC'$ & Springe zu dem rechten Befehl in Speicherzelle $x$. \\ \hline
+    $Cc \to S(x)$ & $xCc$ & Falls die Zahl im Akkumulator $\ge 0$, springe zu dem linken Befehl in Speicherzelle $x$. \\ \hline
+    $Cc' \to S(x)$ & $xCc'$ & Falls die Zahl im Akkumulator $\ge 0$, springe zu dem rechten Befehl in Speicherzelle $x$. \\ \hline
+    $At \to S(x)$ & $xS$ & Speichere die Zahl im Akkumulator in Speicherzelle $x$. \\ \hline
+    $Ap \to S(x)$ & $xSp$ & Tausche die linken 12 Bits des linken Befehls in Speicherzelle $x$ mit den linken 12 Bit des Akkumulator. \\ \hline
+    $Ap' \to S(x)$ & $xSp'$ & Tausche die linken 12 Bits des rechten Befehls in Speicherzelle $x$ mit den linken 12 Bit des Akkumulator. \\ \hline
+    $L$ & $L$ & Multipliziere die Zahl im Akkumulator mit 2. Wird als Shift um eine Stelle nach links implementiert. \\ \hline
+    $R$ & $R$ & Dividiere die Zahl im Akkumulator durch 2. Wird als Shift um eine Stelle nach rechts implementiert. \\ \hline
+    \end{tabular}
+\end{table}
 
 
-
-\subsection{Programmierung und Besonderheiten}
+\subsection{Besonderheiten}
 
 Es ist zu Bemerken, dass es sich um einen parallelen Computer handelt. Dies hatte zwar einen klaren Geschwindigkeitsvorteil, machte die Maschine aber durchaus komplexer als ihre Vorgänger.\\
 
@@ -322,10 +364,12 @@ Der Ingineur Julian Bigelow fasste den Einfluss dieser technischen Erungenschaft
 \section{Der EDSAC}
 \subsection{Geschichte}
 
-Der Electronic Delay Storage Automatic Calculator (kurz EDSAC) wurde von 1946 bis 1949 an der University of Cambridge in England konstruiert. Das Projekt leitete Maurice Wilkes und baute den Computer mit seinem Team im Mathematischen Laboratorium basierend auf den Ideen, die John von Neumann in seinen Abhandlungen darlegte.\\
+Der Electronic Delay Storage Automatic Calculator (kurz EDSAC) wurde von 1946 bis 1949 an der University of Cambridge in England konstruiert. Das Projekt leitete Maurice Wilkes, baute den Computer mit seinem Team im Mathematischen Laboratorium basierend auf den Ideen, die John von Neumann in seinen Abhandlungen darlegte.\\
 Die Maschine beruht also in der Tat auf der Von Neumann Architektur und wurde mit der damals aus Rundfunk bewährten Röhrentechnologie implementiert.\\
 
 \subsection{Technische Beschreibung}
+
+Im folgenden möchte ich näher auf den Aufbau und die technischen Details der Maschine eingehen.
 
 \subsubsection{Zahlenrepräsentation}
 
@@ -385,10 +429,6 @@ interpretiert werden als 0(P), 7(U) und 27(G). Das kleine Führungsloch wird dabe
 
 Der Lochenstreifenleser kann mit dem Befehl $I n$ bedient werden. Über die Lochstreifen wird das Programm mit beinhalten Daten an die Maschine übergeben. Außerdem kann eine Eingabe über den Teleprinter (Tastertur), mit dem Befehl $F n$ erfolgen.\\
 
-\subsubsection{Ausgabewerk}
-
-
-
 \subsection{Instruktionssatz}
 In dem Instruktionssatz kann man erkennen, dass die meisten Befehle aus einem Funktionsteil (OP-Code) und einem numerischen Teil, der eine Speicheradresse angibt, bestehen. Nur einige Befehlen bestehen nur aus einem Funktionsteil, ohne Speicheradresse.\\
 Insgesamt gibt es 18 Befehle mit der die ALU bedient, Werte aus dem Speicher in die Register geladen, Werte aus den Registern in den Speicher geladen, bedingte Sprünge ausgeführt werden können. Außerdem gibt es Befehle um die Ein- und Ausgabe zu steuern und einen Halt-Befehlt, der das Programm stoppt und die eingebaute Glocke läuten lässt.\\
@@ -434,14 +474,7 @@ Der Ordertank ist ein einzelner kürzerer Tank und kann genau einen Befehl speich
 \subsubsection{Ausführen}
 Im zweiten Schritt, wird der geladene Befehl im Ordertank ausgeführt.
 
-TODO: Anhand Datenbus Grafik, die beiden Schritte mit Beispielbefehl erklären.
 
-\subsection{Datenbus}
-
-Alle Bestandteile des Computers (Hauptspeicher, Arithmetische Einheit, Befehlsregister, Ein-/Ausgabewerk, usw.) sind mit sogenannten Gates verbunden.
-Diese Gates können von zwei Einheiten gesteuert werden:
-- Die Hauptsteuereinheit steht am Anfang der Maschine (TODO: Startet die Maschine...)
-- Der sogenannte Order Interpreter schaltet die Gates entsprechend des ausgeführten Befehlt. (TODO: Grafik danach)
 \subsection{Programmierung und Besonderheiten}
 
 \subsubsection{Initial Orders}
@@ -496,7 +529,6 @@ Der erste Befehl auf jedem Lochstreifen muss immer $TnS$ lauten, wobei $n-1$ die
     30 & $G6S$ &\\ \hline
   \end{tabular}
 \end{table}
-
 
 \section{Schluss}
 

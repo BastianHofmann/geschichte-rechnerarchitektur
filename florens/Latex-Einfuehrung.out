@@ -34,20 +34,18 @@
 \BOOKMARK [3][-]{subsubsection.6.2.2}{Speicherwerk}{subsection.6.2}% 34
 \BOOKMARK [3][-]{subsubsection.6.2.3}{Rechenwerk}{subsection.6.2}% 35
 \BOOKMARK [3][-]{subsubsection.6.2.4}{Steuerwerk}{subsection.6.2}% 36
-\BOOKMARK [2][-]{subsection.6.3}{Programmierung und Besonderheiten}{section.6}% 37
+\BOOKMARK [2][-]{subsection.6.3}{Besonderheiten}{section.6}% 37
 \BOOKMARK [1][-]{section.7}{Der EDSAC}{}% 38
 \BOOKMARK [2][-]{subsection.7.1}{Geschichte}{section.7}% 39
 \BOOKMARK [2][-]{subsection.7.2}{Technische Beschreibung}{section.7}% 40
 \BOOKMARK [3][-]{subsubsection.7.2.1}{Zahlenrepr\344sentation}{subsection.7.2}% 41
 \BOOKMARK [2][-]{subsection.7.3}{Ein-/Ausgabe}{section.7}% 42
 \BOOKMARK [3][-]{subsubsection.7.3.1}{Eingabewerk}{subsection.7.3}% 43
-\BOOKMARK [3][-]{subsubsection.7.3.2}{Ausgabewerk}{subsection.7.3}% 44
-\BOOKMARK [2][-]{subsection.7.4}{Instruktionssatz}{section.7}% 45
-\BOOKMARK [2][-]{subsection.7.5}{Speicher}{section.7}% 46
-\BOOKMARK [2][-]{subsection.7.6}{Order Sequence}{section.7}% 47
-\BOOKMARK [3][-]{subsubsection.7.6.1}{Laden}{subsection.7.6}% 48
-\BOOKMARK [3][-]{subsubsection.7.6.2}{Ausf\374hren}{subsection.7.6}% 49
-\BOOKMARK [2][-]{subsection.7.7}{Datenbus}{section.7}% 50
-\BOOKMARK [2][-]{subsection.7.8}{Programmierung und Besonderheiten}{section.7}% 51
-\BOOKMARK [3][-]{subsubsection.7.8.1}{Initial Orders}{subsection.7.8}% 52
-\BOOKMARK [1][-]{section.8}{Schluss}{}% 53
+\BOOKMARK [2][-]{subsection.7.4}{Instruktionssatz}{section.7}% 44
+\BOOKMARK [2][-]{subsection.7.5}{Speicher}{section.7}% 45
+\BOOKMARK [2][-]{subsection.7.6}{Order Sequence}{section.7}% 46
+\BOOKMARK [3][-]{subsubsection.7.6.1}{Laden}{subsection.7.6}% 47
+\BOOKMARK [3][-]{subsubsection.7.6.2}{Ausf\374hren}{subsection.7.6}% 48
+\BOOKMARK [2][-]{subsection.7.7}{Programmierung und Besonderheiten}{section.7}% 49
+\BOOKMARK [3][-]{subsubsection.7.7.1}{Initial Orders}{subsection.7.7}% 50
+\BOOKMARK [1][-]{section.8}{Schluss}{}% 51
