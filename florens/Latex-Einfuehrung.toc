@@ -40,13 +40,13 @@
 \contentsline {subsection}{\numberline {7.1}Geschichte}{17}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}Technische Beschreibung}{17}{subsection.7.2}
 \contentsline {subsubsection}{\numberline {7.2.1}Zahlenrepr\"asentation}{17}{subsubsection.7.2.1}
-\contentsline {subsection}{\numberline {7.3}Ein-/Ausgabe}{17}{subsection.7.3}
-\contentsline {subsubsection}{\numberline {7.3.1}Eingabewerk}{18}{subsubsection.7.3.1}
-\contentsline {subsection}{\numberline {7.4}Instruktionssatz}{18}{subsection.7.4}
-\contentsline {subsection}{\numberline {7.5}Speicher}{18}{subsection.7.5}
-\contentsline {subsection}{\numberline {7.6}Order Sequence}{18}{subsection.7.6}
-\contentsline {subsubsection}{\numberline {7.6.1}Laden}{18}{subsubsection.7.6.1}
-\contentsline {subsubsection}{\numberline {7.6.2}Ausf\"uhren}{18}{subsubsection.7.6.2}
-\contentsline {subsection}{\numberline {7.7}Programmierung und Besonderheiten}{18}{subsection.7.7}
-\contentsline {subsubsection}{\numberline {7.7.1}Initial Orders}{18}{subsubsection.7.7.1}
+\contentsline {subsubsection}{\numberline {7.2.2}Ein-/Ausgabe}{17}{subsubsection.7.2.2}
+\contentsline {paragraph}{Eingabewerk}{17}{section*.4}
+\contentsline {subsubsection}{\numberline {7.2.3}Instruktionssatz}{18}{subsubsection.7.2.3}
+\contentsline {subsubsection}{\numberline {7.2.4}Speicher}{19}{subsubsection.7.2.4}
+\contentsline {subsubsection}{\numberline {7.2.5}Order Sequence}{19}{subsubsection.7.2.5}
+\contentsline {paragraph}{Laden}{19}{section*.5}
+\contentsline {paragraph}{Ausf\"uhren}{19}{section*.6}
+\contentsline {subsection}{\numberline {7.3}Programmierung und Besonderheiten}{19}{subsection.7.3}
+\contentsline {subsubsection}{\numberline {7.3.1}Initial Orders}{19}{subsubsection.7.3.1}
 \contentsline {section}{\numberline {8}Schluss}{19}{section.8}

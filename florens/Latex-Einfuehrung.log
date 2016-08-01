@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.4)  1 AUG 2016 08:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.4)  1 AUG 2016 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -721,7 +721,7 @@ Underfull \hbox (badness 1320) in paragraph at lines 73--73
 []\T1/cmr/bx/n/14.4 Funktionsweise der Elek-tro-
  []
 
-[3] <Abbildungen/eniac_aufbau.png, id=301, 5621.0pt x 6323.625pt>
+[3] <Abbildungen/eniac_aufbau.png, id=276, 5621.0pt x 6323.625pt>
 File: Abbildungen/eniac_aufbau.png Graphic file (type png)
 
 <use Abbildungen/eniac_aufbau.png>
@@ -942,7 +942,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
-[8] <Abbildungen/eniac5.png, id=351, 3717.89pt x 2980.13374pt>
+[8] <Abbildungen/eniac5.png, id=326, 3717.89pt x 2980.13374pt>
 File: Abbildungen/eniac5.png Graphic file (type png)
 
 <use Abbildungen/eniac5.png>
@@ -977,7 +977,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--176
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-<Abbildungen/EDVAC.png, id=362, 2935.96875pt x 3809.23125pt>
+<Abbildungen/EDVAC.png, id=337, 2935.96875pt x 3809.23125pt>
 File: Abbildungen/EDVAC.png Graphic file (type png)
 
 <use Abbildungen/EDVAC.png>
@@ -1046,379 +1046,424 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--240
  []
 
 [12]
-Underfull \hbox (badness 6332) in paragraph at lines 251--263
+
+LaTeX Warning: Citation `IAS_history' on page 13 undefined on input line 261.
+
+
+Underfull \hbox (badness 6332) in paragraph at lines 250--262
 \T1/cmr/m/n/10 Die IAS Ma-schi-ne, MANIAC-0 (Ma-the-ma-ti-cal
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 251--263
+Underfull \hbox (badness 1292) in paragraph at lines 250--262
 \T1/cmr/m/n/10 the Lo-gi-cal De-sign of an Elec-tro-nic Com-pu-ting
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 251--263
+Underfull \hbox (badness 1960) in paragraph at lines 250--262
 \T1/cmr/m/n/10 1945 be-gon-nen und der Com-pu-ter wur-de 1951
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--263
+Underfull \hbox (badness 10000) in paragraph at lines 250--262
 
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 264--269
+Underfull \hbox (badness 2181) in paragraph at lines 263--268
 \T1/cmr/m/n/10 Es ist da-von aus-zu-ge-hen, dass die Ar-chi-tek-tur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--269
+Underfull \hbox (badness 10000) in paragraph at lines 263--268
 
  []
 
 [13]
-Underfull \hbox (badness 1320) in paragraph at lines 272--274
+Underfull \hbox (badness 1320) in paragraph at lines 271--273
 \T1/cmr/m/n/10 Und einen gro-ben Über-blick über die ein-zel-nen
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 272--274
+Underfull \hbox (badness 2359) in paragraph at lines 271--273
 \T1/cmr/m/n/10 Bau-stei-ne ge-ben, aus de-nen die IAS Ma-schi-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--274
+Underfull \hbox (badness 10000) in paragraph at lines 271--273
 
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 297--298
+LaTeX Warning: Citation `ias' on page 14 undefined on input line 285.
+
+
+LaTeX Warning: Citation `ias' on page 14 undefined on input line 290.
+
+
+LaTeX Warning: Citation `ias' on page 14 undefined on input line 292.
+
+
+LaTeX Warning: Citation `selectron' on page 14 undefined on input line 296.
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 296--297
 \T1/cmr/m/n/10 der Wer-te durch elek-tro-sta-ti-sche La-dun-gen auf
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 297--298
+Underfull \hbox (badness 2980) in paragraph at lines 296--297
 \T1/cmr/m/n/10 ei-ner in-su-lier-ten Ober-flä-che ge-spei-chert wer-den.
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 297--298
+Underfull \hbox (badness 1803) in paragraph at lines 296--297
 \T1/cmr/m/n/10 wer-den die Flä-chen auf der dar-un-ter lie-gen-den
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 297--298
+Underfull \hbox (badness 2689) in paragraph at lines 296--297
 \T1/cmr/m/n/10 So-mit kann man durch an-le-gen ent-spre-chen-der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
 [14]
-Underfull \hbox (badness 2469) in paragraph at lines 299--300
+
+LaTeX Warning: Citation `selectron' on page 15 undefined on input line 298.
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 298--299
 []\T1/cmr/m/n/10 Es wird ein Paar der Me-tall-stäb-chen aus der
  []
 
 
-Underfull \hbox (badness 6380) in paragraph at lines 299--300
+Underfull \hbox (badness 6380) in paragraph at lines 298--299
 \T1/cmr/m/n/10 Aus-wahl-struk-tur be-trach-tet. Elek-tro-nen kön-nen
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 299--300
+Underfull \hbox (badness 1342) in paragraph at lines 298--299
 \T1/cmr/m/n/10 zwi-schen zwei ne-ben-ein-an-der lie-gen-den Stäb-chen
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 299--300
+Underfull \hbox (badness 1210) in paragraph at lines 298--299
 \T1/cmr/m/n/10 po-si-ti-ve La-dung ha-ben. An-de-rer-seits wer-den die
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 299--300
+Underfull \hbox (badness 1297) in paragraph at lines 298--299
 \T1/cmr/m/n/10 Elek-tro-nen zwi-schen den bei-den Stäb-chen ab-ge-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 
  []
 
 
-Overfull \hbox (6.8796pt too wide) in paragraph at lines 323--323
+LaTeX Warning: Citation `ias' on page 15 undefined on input line 308.
+
+
+LaTeX Warning: Citation `ias' on page 15 undefined on input line 315.
+
+
+Overfull \hbox (6.8796pt too wide) in paragraph at lines 322--322
 []|\T1/cmr/m/n/10 Abk.| 
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 324--324
+Underfull \hbox (badness 1910) in paragraph at lines 323--323
 \T1/cmr/m/n/10 Spei-cher-zel-le $\OML/cmm/m/it/10 x$ \T1/cmr/m/n/10 auf den
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
 []|$\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS
 /cmsy/m/n/10 !
  []
 
 
-Overfull \hbox (2.28056pt too wide) in paragraph at lines 326--326
+Overfull \hbox (2.28056pt too wide) in paragraph at lines 325--325
 []|$\OML/cmm/m/it/10 xM$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
 []|$\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS
 /cmsy/m/n/10 !
  []
 
 
-Overfull \hbox (8.04214pt too wide) in paragraph at lines 330--330
+Overfull \hbox (8.04214pt too wide) in paragraph at lines 329--329
 []|$\OML/cmm/m/it/10 xhM$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
 []|\T1/cmr/m/n/10 Addiere den ab-so-lu-
  []
 
 
-Underfull \hbox (badness 4217) in paragraph at lines 330--330
+Underfull \hbox (badness 4217) in paragraph at lines 329--329
 \T1/cmr/m/n/10 ten Wert der Zahl in
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 330--330
+Underfull \hbox (badness 1910) in paragraph at lines 329--329
 \T1/cmr/m/n/10 Spei-cher-zel-le $\OML/cmm/m/it/10 x$ \T1/cmr/m/n/10 auf den
  []
 
 
-Overfull \hbox (2.32687pt too wide) in paragraph at lines 331--331
+Overfull \hbox (2.32687pt too wide) in paragraph at lines 330--330
 \OML/cmm/m/it/10 hM$| 
  []
 
 
-Underfull \hbox (badness 7273) in paragraph at lines 333--333
+Underfull \hbox (badness 7273) in paragraph at lines 332--332
 []|\T1/cmr/m/n/10 Lösche den Ak-ku-mu-la-
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 333--333
+Underfull \hbox (badness 1895) in paragraph at lines 332--332
 \T1/cmr/m/n/10 im arith-me-ti-schen Re-gi-
  []
 
 
-Overfull \hbox (0.55833pt too wide) in paragraph at lines 334--334
+Overfull \hbox (0.55833pt too wide) in paragraph at lines 333--333
 []|$\OML/cmm/m/it/10 xX$| 
  []
 
 
-Underfull \hbox (badness 5652) in paragraph at lines 334--334
+Underfull \hbox (badness 5652) in paragraph at lines 333--333
 \T1/cmr/m/n/10 in Spei-cher-zel-le $\OML/cmm/m/it/10 x$ \T1/cmr/m/n/10 mit
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 334--334
+Underfull \hbox (badness 2941) in paragraph at lines 333--333
 \T1/cmr/m/n/10 der Zahl im arith-me-ti-
  []
 
 
-LaTeX Warning: Float too large for page by 63.13113pt on input line 336.
+LaTeX Warning: Float too large for page by 63.13113pt on input line 335.
 
 
-Overfull \hbox (6.8796pt too wide) in paragraph at lines 342--342
+Overfull \hbox (6.8796pt too wide) in paragraph at lines 341--341
 []|\T1/cmr/m/n/10 Abk.| 
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 343--343
+Underfull \hbox (badness 1371) in paragraph at lines 342--342
 \T1/cmr/m/n/10 Zahl in Spei-cher-zel-le $\OML/cmm/m/it/10 x$\T1/cmr/m/n/10 .
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 343--343
+Underfull \hbox (badness 6477) in paragraph at lines 342--342
 \T1/cmr/m/n/10 La-de den Quo-ti-ent in
  []
 
 
-Overfull \hbox (2.15695pt too wide) in paragraph at lines 345--345
+Overfull \hbox (2.15695pt too wide) in paragraph at lines 344--344
 []|$\OML/cmm/m/it/10 xC[]$| 
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 345--345
+Underfull \hbox (badness 1062) in paragraph at lines 344--344
 []|\T1/cmr/m/n/10 Springe zu dem rech-ten
  []
 
 
-Overfull \hbox (3.67896pt too wide) in paragraph at lines 346--346
+Overfull \hbox (3.67896pt too wide) in paragraph at lines 345--345
 []|$\OML/cmm/m/it/10 xCc$| 
  []
 
 
-Overfull \hbox (6.48451pt too wide) in paragraph at lines 347--347
+Overfull \hbox (6.48451pt too wide) in paragraph at lines 346--346
 []|$\OML/cmm/m/it/10 xCc[]$| 
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 347--347
+Underfull \hbox (badness 2435) in paragraph at lines 346--346
 \T1/cmr/m/n/10 rech-ten Be-fehl in Spei-
  []
 
 
-Overfull \hbox (3.22847pt too wide) in paragraph at lines 349--349
+Overfull \hbox (3.22847pt too wide) in paragraph at lines 348--348
 []|$\OML/cmm/m/it/10 xSp$| 
  []
 
 
-Overfull \hbox (6.03403pt too wide) in paragraph at lines 350--350
+Overfull \hbox (6.03403pt too wide) in paragraph at lines 349--349
 []|$\OML/cmm/m/it/10 xSp[]$| 
  []
 
 
-Underfull \hbox (badness 5105) in paragraph at lines 350--350
+Underfull \hbox (badness 5105) in paragraph at lines 349--349
 \T1/cmr/m/n/10 des rech-ten Be-fehls in
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 350--350
+Underfull \hbox (badness 1371) in paragraph at lines 349--349
 \T1/cmr/m/n/10 Spei-cher-zel-le $\OML/cmm/m/it/10 x$ \T1/cmr/m/n/10 mit den
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 352--352
+Underfull \hbox (badness 1609) in paragraph at lines 351--351
 \T1/cmr/m/n/10 als Shift um ei-ne Stel-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
+Underfull \hbox (badness 10000) in paragraph at lines 358--359
 
  []
+
+
+LaTeX Warning: Citation `IAS_history' on page 15 undefined on input line 361.
 
 [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 367--369
+
+LaTeX Warning: Citation `theedsac' on page 17 undefined on input line 367.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--368
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--378
-
- []
+LaTeX Warning: Citation `theedsac' on page 17 undefined on input line 379.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--380
-
- []
+LaTeX Warning: Citation `theedsac' on page 17 undefined on input line 396.
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 381--382
-[]\T1/cmr/m/n/10 Negative Zah-len wer-den durch das Kom-ple-ment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 381--382
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
 \T1/cmr/m/n/10 Pro-gram-mie-rer ver-ständ-lich dar-zu-stel-len. Die-se
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
 
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 403--429
+LaTeX Warning: Citation `theedsac' on page 17 undefined on input line 401.
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 399--425
+ []\T1/cmr/bx/n/10 Eingabewerk[] \T1/cmr/m/n/10 Der Loch-strei-fen-le-ser kann 
+einen
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 399--425
 \T1/cmr/m/n/10 Co-die-run-gen. Die Buch-sta-ben-co-die-rung und die
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 403--429
+Underfull \hbox (badness 1997) in paragraph at lines 399--425
 \T1/cmr/m/n/10 Zah-len-co-die-rung. Die Buch-sta-ben-co-die-rung en-co-
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 403--429
+Underfull \hbox (badness 1742) in paragraph at lines 399--425
 \T1/cmr/m/n/10 com-ple-men-tiert, so-dass die Zei-len [] ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--429
+Underfull \hbox (badness 10000) in paragraph at lines 399--425
 
  []
 
+[17]
 
-Underfull \vbox (badness 4765) has occurred while \output is active []
+LaTeX Warning: Citation `theedsac' on page 18 undefined on input line 426.
 
- [17]
-Underfull \hbox (badness 1052) in paragraph at lines 430--431
+
+Underfull \hbox (badness 1052) in paragraph at lines 426--427
 \T1/cmr/m/n/10 be-dient wer-den. Über die Loch-strei-fen wird das
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
 
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 457--457
+LaTeX Warning: Citation `theedsac' on page 18 undefined on input line 430.
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 453--453
 \T1/cmr/m/n/10 wer-ti-gen Bits in Spei-cher-zel-le n ent-
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 457--457
+Underfull \hbox (badness 2547) in paragraph at lines 453--453
 []|\T1/cmr/m/n/10 Stoppe die Ma-schi-ne und läu-te die
  []
 
 
-LaTeX Warning: Float too large for page by 21.99988pt on input line 458.
+LaTeX Warning: Float too large for page by 21.99988pt on input line 454.
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 481--482
+LaTeX Warning: Citation `theedsac' on page 18 undefined on input line 460.
+
+[18]
+
+LaTeX Warning: Citation `theedsac' on page 19 undefined on input line 468.
+
+
+LaTeX Warning: Citation `theedsac' on page 19 undefined on input line 482.
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 476--483
 \T1/cmr/m/n/10 Ma-schi-ne ein Pro-gramm, die so-ge-nann-ten in-iti-al
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
-
- []
-
-[18]
-Underfull \hbox (badness 1418) in paragraph at lines 483--484
+Underfull \hbox (badness 1418) in paragraph at lines 476--483
 \T1/cmr/m/n/10 rung dre-hen sich die-se Wähl-schei-ben, und dass
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 483--484
+Underfull \hbox (badness 1072) in paragraph at lines 476--483
 \T1/cmr/m/n/10 Pro-gramm wird in die Spei-cher-zel-len $\OML/cmm/m/it/10 m\OT1/
 cmr/m/n/10 [0 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 30]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--484
+Underfull \hbox (badness 1147) in paragraph at lines 476--483
+\T1/cmr/m/n/10 Der Be-fehl in $\OML/cmm/m/it/10 m\OT1/cmr/m/n/10 [25]$ \T1/cmr/
+m/n/10 ist in der Form $\OML/cmm/m/it/10 TnS$ \T1/cmr/m/n/10 (zu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--483
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--486
-
+Underfull \hbox (badness 2573) in paragraph at lines 506--506
+[]|\T1/cmr/m/n/10 Shifte Ak-ku-mu-la-tor 8 Stel-len
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--489
-
+Underfull \hbox (badness 2573) in paragraph at lines 510--510
+[]|\T1/cmr/m/n/10 Shifte Ak-ku-mu-la-tor $\OT1/cmr/m/n/10 4$ \T1/cmr/m/n/10 Ste
+l-len
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
-
+Underfull \hbox (badness 5847) in paragraph at lines 524--524
+[]|\T1/cmr/m/n/10 Addiere Wert aus $\OML/cmm/m/it/10 m\OT1/cmr/m/n/10 [4]$ \T1/
+cmr/m/n/10 auf
  []
 
 
-LaTeX Warning: Citation `IAS_history' on page 19 undefined on input line 537.
+LaTeX Warning: Citation `IAS_history' on page 19 undefined on input line 535.
 
 [19] [20] [21 <./Abbildungen/eniac_aufbau.png>] [22 <./Abbildungen/eniac5.png (
 PNG copy)>] [23 <./Abbildungen/EDVAC.png (PNG copy)>] (./Latex-Einfuehrung.bbl
@@ -1442,69 +1487,54 @@ Underfull \hbox (badness 1184) in paragraph at lines 14--17
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 552.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 550.
  [24
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 552.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 550.
  (./Latex-Einfuehrung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 552.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 552.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 550.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 550.
+Package rerunfilecheck Info: File `Latex-Einfuehrung.out' has not changed.
+(rerunfilecheck)             Checksum: AB29FFF72D147B1C6BE1865E1FC99359;3414.
 
-
-Package rerunfilecheck Warning: File `Latex-Einfuehrung.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Latex-Einfuehrung.out':
-(rerunfilecheck)             Before: AAE0B4535B1E94CF42CB240D72D0B7F1;3711
-(rerunfilecheck)             After:  B87A4E0784C303959F4F09382AF3BEAE;3582.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 552.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 550.
  ) 
 Here is how much of TeX's memory you used:
- 18137 strings out of 493089
- 328346 string characters out of 6134843
- 418300 words of memory out of 5000000
- 21203 multiletter control sequences out of 15000+600000
+ 18132 strings out of 493089
+ 328233 string characters out of 6134843
+ 418294 words of memory out of 5000000
+ 21201 multiletter control sequences out of 15000+600000
  14594 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,4136b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsubsection.7.8.1} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.8} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.7.3.2} has been referenced but does n
-ot exist, replaced by a fixed one
-
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on Latex-Einfuehrung.pdf (24 pages, 25812352 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on Latex-Einfuehrung.pdf (24 pages, 25813053 bytes).
 PDF statistics:
- 526 PDF objects out of 1000 (max. 8388607)
- 475 compressed objects within 5 object streams
- 97 named destinations out of 1000 (max. 500000)
- 452 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 502 PDF objects out of 1000 (max. 8388607)
+ 451 compressed objects within 5 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 412 words of extra memory for PDF output out of 10000 (max. 10000000)
 
