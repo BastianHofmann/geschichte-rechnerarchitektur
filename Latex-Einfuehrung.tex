@@ -317,7 +317,7 @@ Außerdem kann das Rechenwerk Multiplizieren und Dividieren. ~\cite{ias}
 
 Wie in der Von-Neumann-Architektur festgelegt, soll das auszuführende Programm zusammen mit den Daten im Speicher stehen. Um das Programm zu beschreiben, waren zwei Typen von Befehlen geplant. Ein Befehl des ersten Typs holt erst einen Wert aus einer bestimmten Stelle im Speicher in das Selectronregister und wendet dann eine Funktion des Rechenwerks darauf an. Normalerweise wird dabei ein Wert, der sich bereits in der Recheneinheit befindet, mit einbezogen. Das Ergebnis der Rechnung wird dabei vorerst in der Recheneinheit behalten und gespeichert.\\
 Ein Befehl des zweiten Typs holt einen Wert aus dem Rechenwerk in das Selectronregister und lädt im zweiten Schritt den Inhalt des Selectronregisters in eine gegebene Stelle im Speicher. Außerdem gibt es bedingte Sprungbefehle und Befehle, die die Ein- und Ausgabe steuern.\\
-Die Wortbreite ist auf 40 Bit festgelegt, aber da 8 Bit für OP-Code und 12 Bit für den Adressteil des Befehls ausreicht, haben in jedem Wort zwei Befehle Platz. Somit ist das komplette Programm aus Paaren von Befehlen, die jeweils einen von den oben beschriebenen Typen haben, aufgebaut. Eigentlich hätten sogar 6 Bit für den OP-Code genügt, aber da man für Daten eine höhere Genauigkeit benötigte, hatt man sich für dieses Format entschieden. Einige Bits des OP-Codes blieben in der entgültigen Maschine wohl unbenützt.\\
+Die Wortbreite ist auf 40 Bit festgelegt, aber da 8 Bit für OP-Code und 12 Bit für den Adressteil des Befehls ausreicht, haben in jedem Wort zwei Befehle Platz. Somit ist das komplette Programm aus Paaren von Befehlen, die jeweils einen von den oben beschriebenen Typen haben, aufgebaut. Eigentlich hätten sogar 6 Bit für den OP-Code genügt, aber da man für Daten eine höhere Genauigkeit benötigte, hat man sich für dieses Format entschieden. Einige Bits des OP-Codes blieben in der entgültigen Maschine wohl unbenützt.\\
 Während der Ausführung wird zuerst der allererste Befehl ausgewertet, gefolgt von dem zweitem Befehl im aktuellen Befehlspaar. Dieser Prozess wird bis zum Ende des Programms wiederholt. ~\cite{ias}
 
 \begin{table}
@@ -363,14 +363,14 @@ Während der Ausführung wird zuerst der allererste Befehl ausgewertet, gefolgt vo
 
 Es ist zu Bemerken, dass es sich um einen parallelen Computer handelt. Dies hatte zwar einen klaren Geschwindigkeitsvorteil, machte die Maschine aber durchaus komplexer als ihre Vorgänger.\\
 
-Außerdem waren alle Dokumente die von gesamten MANIC-0 Team verfasst wurden von fast jedem einzusehen und wurden teilweise auch an wissenschaftliche Institutionen in der ganzen Welt verschickt. Dadurch entstannd eine lange liste an Computern die auf dem selben IAS Design bassierten. Insofern kann man sagen, dass die IAS Maschine zu dieser Zeit und auch danach einen großen Einfluss auf die Struktur und Architektur von Rechenmaschinen hatte.\\
-Der Ingineur Julian Bigelow fasste den Einfluss dieser technischen Erungenschaft mit folgenden Worten zusammen: ``Es geschah hier... und wir hatten das Glück dabei zu sein... Eine Flutwelle an Rechenleistung war kurz davor zu brechen und alles in Wissenschaft und vielen anderen Bereichen zu überschwemmen und danach würde nichts mehr so sein wie zuvor. Es würde unklare Bereiche, die sich seit Jahrhunderten angehäuft haben, reinigen und lösen.''  ~\cite{IAS_history}
+Außerdem waren alle Dokumente die von gesamten MANIC-0 Team verfasst wurden von fast jedem einzusehen und wurden teilweise auch an wissenschaftliche Institutionen in der ganzen Welt verschickt. Dadurch entstannd eine lange Liste an Computern die auf dem selben IAS Design basieren. Insofern kann man sagen, dass die IAS Maschine zu dieser Zeit und auch danach einen großen Einfluss auf die Struktur und Architektur von Rechenmaschinen hatte.\\
+Der Ingineur Julian Bigelow fasste den Einfluss dieser technischen Erungenschaft mit folgenden Worten zusammen: ``Es geschah hier... und wir hatten das Glück dabei zu sein... Eine Flutwelle an Rechenleistung war kurz davor zu brechen und alles in Wissenschaft und vielen anderen Bereichen zu überschwemmen. Danach würde nichts mehr so sein wie zuvor. Es würde unklare Bereiche, die sich seit Jahrzehnten angehäuft haben, reinigen und lösen.''  ~\cite{IAS_history}
 
 \section{Der EDSAC}
 \subsection{Geschichte}
 
-Der Electronic Delay Storage Automatic Calculator (kurz EDSAC) wurde von 1946 bis 1949 an der University of Cambridge in England konstruiert. Das Projekt leitete Maurice Wilkes, baute den Computer mit seinem Team im Mathematischen Laboratorium basierend auf den Ideen, die John von Neumann in seinen Abhandlungen darlegte. ~\ref{EDSAC_picture}\\
-Die Maschine beruht also in der Tat auf der Von Neumann Architektur und wurde mit der damals aus Rundfunk bewährten Röhrentechnologie implementiert. ~\cite{theedsac}\\
+Der Electronic Delay Storage Automatic Calculator (kurz EDSAC) wurde von 1946 bis 1949 an der University of Cambridge in England konstruiert. Das Projekt leitete Maurice Wilkes. Er baute den Computer mit seinem Team im Mathematischen Laboratorium basierend auf den Ideen, die John von Neumann in seinen Abhandlungen darlegte. ~\ref{EDSAC_picture}\\
+Die Maschine beruht also in der Tat auf der Von-Neumann-Architektur und wurde mit der damals aus Rundfunk bewährten Röhrentechnologie implementiert. ~\cite{theedsac}\\
 
 
 \begin{figure*}[ht]
