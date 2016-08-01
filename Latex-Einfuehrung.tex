@@ -247,20 +247,19 @@ Der Aufbau des EDVAC hat starke Ähnlichkeiten zu heutigen Konzepten, vor allem i
 \section{Die IAS-Maschine}
 \subsection{Geschichte}
 
-Die IAS Maschine, MANIAC-0 (Mathematical Analyzer, Numerical Integrator, and Computer oder Mathematical Analyzer, Numerator, Integrator, and Computer), oder einfach nur IAS basiert auf John von Neumanns Arbeit ``Preliminary Discussion of the
-Logical Design of an Electronic Computing Instrument'' und wurde, unter seiner Aufsicht, 
-am Institute for Advanced Studies (IAS) in Princeton, New Jersey entwickelt.
+Die IAS Maschine, MANIAC-0 (Mathematical Analyzer, Numerical Integrator, and Computer oder Mathematical Analyzer, Numerator, Integrator, and Computer), oder einfach nur IAS, basiert auf John von Neumanns Arbeit ``Preliminary Discussion of the
+Logical Design of an Electronic Computing Instrument'' und wurde unter seiner Aufsicht am Institute for Advanced Studies (IAS) in Princeton, New Jersey entwickelt.
 Mit der Entwicklung wurde 1945 begonnen und der Computer wurde 1951 fertiggestellt.
-Bis zu diesem Zeitpunkt wurden Universalrechner hauptsächlich für militärische Zwecke verwenden,
+Bis zu diesem Zeitpunkt wurden Universalrechner hauptsächlich für militärische Zwecke verwendet,
 zum Beispiel um Flugbahnen von Artilleriegeschossen zu berechnen.
 Nun wurde erstmals ein Universalrechner an einer Universität entwickelt, der dazu gedacht war
 wissenschaftliche Erungenschaften zu ermöglichen.
 Dieses Konzept führte unter anderem dazu, dass sämtliche Dokumente, Beschreibungen der Maschine und Schaltpläne veröffentlicht
 wurden. Auf Grundlage dieser Dokumente konnten Universitäten auf der ganzen Welt ihre eigenen IAS Maschinen
 bauen. Auch die Programmierbare Elektronische Rechenmaschine München (PERM), die in der Informatikabteilung des Deutschen Museums 
-in München ausgestellt ist eine solche IAS Maschine. ~\cite{IAS_history}\\
+in München ausgestellt ist, ist eine solche IAS Maschine. ~\cite{IAS_history}\\
 
-Die Architektur die in dem oben genannten Bericht erläutert wird, wird Heute allgemein 
+Die Architektur die in dem oben genannten Bericht erläutert wird, wird heute allgemein 
 Von-Neumann-Architektur genannt obwohl John von Neumann nur einer der Verfasser der Abhandlung ist.
 Neben John von Neumann haben auch Arthur Burks und Herman Goldstine an der Architektur gearbeitet. 
 Es ist davon auszugehen, dass die Architektur wesentlich von John von Neumann 
@@ -277,8 +276,7 @@ beeinflusst wurde und deshalb nach ihm benannt ist. ~\ref{IAS_picture}\\
 
 \subsection{Technische Beschreibung}
 
-Im folgenden möchte ich näherer auf Aufbau, Funktionsweise und Architektur des Computers eingehen. Und einen groben Überblick über die einzelnen Bausteine geben, aus denen die IAS Maschine besteht. Es ist bereits bekannt, dass ein Computer der eine Von-Neumann-Architektur besitzt aus vier wesentlichen Bausteinen besteht: Speicherwerk, Rechenwerk, Ein-/Ausgabewerk und dem Steuerwerk. Diese vier Bausteine sind
-auch in der IAS Maschine zu finden in werden in der Abhandlung von John von Neumann beschrieben.\\
+Im folgenden möchte ich näherer auf Aufbau, Funktionsweise und Architektur des Computers eingehen und einen groben Überblick über die einzelnen Bausteine geben, aus denen die IAS Maschine besteht. Es ist bereits bekannt, dass ein Computer der eine Von-Neumann-Architektur besitzt aus vier wesentlichen Bausteinen besteht: Speicherwerk, Rechenwerk, Ein-/Ausgabewerk und dem Steuerwerk. Diese vier Bausteine sind auch in der IAS Maschine zu finden in werden in der Abhandlung von John von Neumann beschrieben.\\
 
 Zunächst werden aber allgemeine Eigenschaften der Maschine beschrieben.
 
@@ -286,7 +284,7 @@ Zunächst werden aber allgemeine Eigenschaften der Maschine beschrieben.
 
 Man entschied sich für eine Wortbreite von 40Bit, da diese Wortbreite für die meisten geplanten Anwendungen ausreichend war. Es konnten aber in der Theorie mehrere
 Wörter als eine Zahl interpretiert werden. Somit war man in der Lage mit sehr viel grösseren Zahlen zu rechnen.
-Bei der Planung der Maschine wurde angenommen, dass die meisten Zahlen, die verarbeitet werden sollen zwischen -1 und 1 liegen.
+Bei der Planung der Maschine wurde angenommen, dass die meisten Zahlen, die verarbeitet werden sollen, zwischen -1 und 1 liegen.
 Deshalb wurde eine Kodierung gewählt, die die 40 Bit von links nach rechts zu Vorzeichenbit, gefolgt von $2^{-1}$, $2^{-2}$, ... $2^{-39}$ kodiert.
 Wie gewohnt wird das Vorzeichenbit mit $0$ für eine positive und $1$ für eine negative Zahl kodiert.
 Tatsächlich ist diese Kodierung aber mehr eine Konvention antstatt eine tatsächliche Eigenschafft der Maschine. Die Konvention wird nur bei der 
