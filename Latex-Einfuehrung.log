@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.4)  1 AUG 2016 15:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.4)  1 AUG 2016 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1121,61 +1121,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 279--280
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 303--304
+Underfull \hbox (badness 2443) in paragraph at lines 300--301
 \T1/cmr/m/n/10 der Wer-te durch elek-tro-sta-ti-sche La-dun-gen auf
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 303--304
+Underfull \hbox (badness 2980) in paragraph at lines 300--301
 \T1/cmr/m/n/10 ei-ner in-su-lier-ten Ober-flä-che ge-spei-chert wer-den.
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 303--304
+Underfull \hbox (badness 1803) in paragraph at lines 300--301
 \T1/cmr/m/n/10 wer-den die Flä-chen auf der dar-un-ter lie-gen-den
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 303--304
+Underfull \hbox (badness 2689) in paragraph at lines 300--301
 \T1/cmr/m/n/10 So-mit kann man durch an-le-gen ent-spre-chen-der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
 
-[14]
-Underfull \hbox (badness 2469) in paragraph at lines 305--306
+
+Underfull \hbox (badness 2469) in paragraph at lines 302--303
 []\T1/cmr/m/n/10 Es wird ein Paar der Me-tall-stäb-chen aus der
  []
 
 
-Underfull \hbox (badness 6380) in paragraph at lines 305--306
+Underfull \hbox (badness 6380) in paragraph at lines 302--303
 \T1/cmr/m/n/10 Aus-wahl-struk-tur be-trach-tet. Elek-tro-nen kön-nen
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 305--306
+Underfull \hbox (badness 1342) in paragraph at lines 302--303
 \T1/cmr/m/n/10 zwi-schen zwei ne-ben-ein-an-der lie-gen-den Stäb-chen
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 305--306
+Underfull \hbox (badness 1210) in paragraph at lines 302--303
 \T1/cmr/m/n/10 po-si-ti-ve La-dung ha-ben. An-de-rer-seits wer-den die
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 305--306
+Underfull \hbox (badness 1297) in paragraph at lines 302--303
 \T1/cmr/m/n/10 Elek-tro-nen zwi-schen den bei-den Stäb-chen ab-ge-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
-
+[14]
 Overfull \hbox (6.8796pt too wide) in paragraph at lines 329--329
 []|\T1/cmr/m/n/10 Abk.| 
  []
@@ -1508,7 +1508,7 @@ ve/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive
 5/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on Latex-Einfuehrung.pdf (27 pages, 26107434 bytes).
+Output written on Latex-Einfuehrung.pdf (27 pages, 26107458 bytes).
 PDF statistics:
  543 PDF objects out of 1000 (max. 8388607)
  487 compressed objects within 5 object streams
