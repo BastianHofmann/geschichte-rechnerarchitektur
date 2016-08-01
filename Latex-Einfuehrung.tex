@@ -307,8 +307,7 @@ Zwischen Speicherwerk und Rechenwerk gibt es eine Art Puffer, das Selectronregis
 \subsubsection{Rechenwerk}
 
 In der Recheneinheit der IAS Maschine gibt es zwei für den Programmierer benutzbare Register: Den Akkumulator und das Multiplikationsregister.
-Der Akkumulator ist eine paralelle Speichereinheit die eine Zahl empfangen kann und diese auf die gespeicherte Zahl addieren kann. Um eine solche
-binäre Addition durchzuführen werden zwei Schritte benötigt.\\
+Der Akkumulator ist eine paralelle Speichereinheit die eine Zahl empfangen kann und diese auf die gespeicherte Zahl addieren kann. Um eine solche binäre Addition durchzuführen werden zwei Schritte benötigt.\\
 Im ersten Schritt werden die Zahlen übereinander gelegt und jedes Paar von Bits addiert. Im zweiten Schritt werden die Carries die im ersten Schritt entstehen behandelt.
 Die Carries müssen nacheinander behandelt werden, da ein Carry ein zweites auslösen kann. Schlimmstenfalls werden so 39 Carries ausgelöst.
 Substraktion wird durch Umwandlung der Zahl ins Zweierkomplement und anschließender Addition umgesetzt.
@@ -316,7 +315,7 @@ Außerdem kann das Rechenwerk Multiplizieren und Dividieren. ~\cite{ias}
 
 \subsubsection{Steuerwerk}
 
-Wie in der von Neumann-Architektur festgelegt, soll das auszuführende Programm zusammen mit den Daten im Speicher stehen. Um das Programm zu beschreiben, waren zwei Typen von Befehlen geplant. Ein Befehl des ersten Typs holt erst einen Wert aus einer bestimmten Stelle im Speicher in das Selectronregister und wendet dann eine Funktion des Rechenwerks darauf an (normalerweise wird dabei ein Wert, der sich bereits in der Recheneinheit befindet mit einbezogen). Das Ergebnis der Rechnung wird dabei vorerst in der Recheneinheit behalten und gespeichert.\\
+Wie in der Von-Neumann-Architektur festgelegt, soll das auszuführende Programm zusammen mit den Daten im Speicher stehen. Um das Programm zu beschreiben, waren zwei Typen von Befehlen geplant. Ein Befehl des ersten Typs holt erst einen Wert aus einer bestimmten Stelle im Speicher in das Selectronregister und wendet dann eine Funktion des Rechenwerks darauf an. Normalerweise wird dabei ein Wert, der sich bereits in der Recheneinheit befindet, mit einbezogen. Das Ergebnis der Rechnung wird dabei vorerst in der Recheneinheit behalten und gespeichert.\\
 Ein Befehl des zweiten Typs holt einen Wert aus dem Rechenwerk in das Selectronregister und lädt im zweiten Schritt den Inhalt des Selectronregisters in eine gegebene Stelle im Speicher. Außerdem gibt es bedingte Sprungbefehle und Befehle, die die Ein- und Ausgabe steuern.\\
 Die Wortbreite ist auf 40 Bit festgelegt, aber da 8 Bit für OP-Code und 12 Bit für den Adressteil des Befehls ausreicht, haben in jedem Wort zwei Befehle Platz. Somit ist das komplette Programm aus Paaren von Befehlen, die jeweils einen von den oben beschriebenen Typen haben, aufgebaut. Eigentlich hätten sogar 6 Bit für den OP-Code genügt, aber da man für Daten eine höhere Genauigkeit benötigte, hatt man sich für dieses Format entschieden. Einige Bits des OP-Codes blieben in der entgültigen Maschine wohl unbenützt.\\
 Während der Ausführung wird zuerst der allererste Befehl ausgewertet, gefolgt von dem zweitem Befehl im aktuellen Befehlspaar. Dieser Prozess wird bis zum Ende des Programms wiederholt. ~\cite{ias}
