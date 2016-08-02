@@ -30,7 +30,7 @@
 \contentsline {section}{\numberline {6}Die IAS-Maschine}{13}{section.6}
 \contentsline {subsection}{\numberline {6.1}Geschichte}{13}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Technische Beschreibung}{14}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Zahlenrepresentation}{14}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.1}Zahlenrepr\"asentation}{14}{subsubsection.6.2.1}
 \contentsline {subsubsection}{\numberline {6.2.2}Speicherwerk}{14}{subsubsection.6.2.2}
 \contentsline {paragraph}{Selectron-Tube}{14}{section*.3}
 \contentsline {subsubsection}{\numberline {6.2.3}Rechenwerk}{15}{subsubsection.6.2.3}
